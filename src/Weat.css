@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-family:'Poppins',sans-serif;
+    background: url("https://cdn.pixabay.com/photo/2022/10/21/21/11/art-7537962_960_720.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.App{
+    width: 400px;
+    padding: 25px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.2);
+    /* background: linear-gradient(108deg,#7d0d59,#990962); */
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    border: 3px solid rgba(255,255,255,.2);
+}
+
+.App h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input{
+    display: flex;
+    /* margin: 20px; */
+}
+
+input{
+    width: 100%;
+    padding: 5px 10px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    outline: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(262deg,rgba(0,0,0,0.1),rgba(0,0,0,0.4)) ;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.location{
+    margin-top: 20px;
+}
+
+.location h2{
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+.location h2 span{
+    font-size: 14px;
+}
+
+.description h3{
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+}
+
+.temperature{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.temperature h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.temperature h1 span{
+    font-size: 30px;
+}
+
+.temperature h3{
+    font-weight: 400;
+}
+
+.weather{
+    padding: 0px 20px;
+    background:rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.weather h3{
+    margin: 5px;
+    padding: 5px;
+    font-weight: 400;
+}
